@@ -1,0 +1,28 @@
+.pricetable-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34; /* Dark background color */
+  }
+  
+  .custom-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid white; /* White borders */
+    padding: 10px;
+    text-align: center;
+    color: white; /* White text */
+  }
+  
+  th {
+    background-color: #61dafb; /* Header background color */
+  }
+  
+  td {
+    background-color: #4caf50; /* Row background color */
+  }
